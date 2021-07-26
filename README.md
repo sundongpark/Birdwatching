@@ -10,4 +10,5 @@
 ## 진행 상황
 1. YOLOv4 사용 (yolo.py)
 2. 정지영상 개체수 검출 후 결과 저장 (detect.py)
-3. 동영상 개체수 검출 후 결과 저장 (detect_video.py)
+<p align="left"><img src="data/result.jpg" width="512"\></p>
+4. 동영상 개체수 검출 후 결과 저장 (detect_video.py)
