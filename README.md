@@ -17,7 +17,7 @@
 
 <p align="left"><img src="data/bird.jpg" width="512"\></p><p align="left"><img src="data/result.jpg" width="512"\></p>
 
-<img src="data/program.png" width="512"\></p>
+<img src="data/program.jpg" width="512"\></p>
 
 3. 동영상 개체수 검출 후 결과 저장 (detect_video.py)
 <p align="left"><img src="data/result.gif" width="512"\></p>
