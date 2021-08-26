@@ -15,6 +15,7 @@ classes = ["person", "bicycle", "car", "motorcycle",
            "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush"]
 
 def yolo(frame, size, score_threshold, nms_threshold):
+    #YOLOv4의 데이터 사용
     net = cv2.dnn.readNet("yolov4.weights", "yolov4.cfg")
     layer_names = net.getLayerNames()
     output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
@@ -34,7 +35,7 @@ def yolo(frame, size, score_threshold, nms_threshold):
             class_id = np.argmax(scores)
             confidence = scores[class_id]
 
-            if confidence > 0.1:
+            if confidence > 0.05:
                 center_x = int(detection[0] * width)
                 center_y = int(detection[1] * height)
                 w = int(detection[2] * width)
@@ -50,6 +51,7 @@ def yolo(frame, size, score_threshold, nms_threshold):
     
     print("\n\n============================== classes ==============================")
 
+    #객체 중에 새를 파악
     birds = 0
     for i in range(len(boxes)):
         if i in indexes:
