@@ -25,5 +25,5 @@
 
 ## Reference
 * [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934)
-* [darknet](https://github.com/AlexeyAB/darknet)
-* https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/
+* [Darknet](https://github.com/AlexeyAB/darknet)
+* [YOLO object detection using Opencv with Python](https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python)
