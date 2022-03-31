@@ -22,3 +22,7 @@
 
 3. 동영상 개체수 검출 후 결과 저장 (detect_video.py)
 <p align="left"><img src="data/result.gif" width="512"\></p>
+
+## Reference
+* [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934)
+* [darknet](https://github.com/AlexeyAB/darknet)
